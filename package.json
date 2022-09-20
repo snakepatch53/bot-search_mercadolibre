@@ -1,0 +1,19 @@
+{
+    "name": "bot-scraping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./app.js",
+        "bot": "node ./bot.js",
+        "scraping": "node ./scraping.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "playwright": "1.25.2",
+        "qrcode-terminal": "0.12.0",
+        "whatsapp-web.js": "1.17.1"
+    }
+}
